@@ -193,6 +193,9 @@ section {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
+.img-round {
+  border-radius: 30%;
+}
 
 .title {
   font-size: 3rem;
