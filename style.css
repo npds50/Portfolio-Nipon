@@ -466,7 +466,7 @@ footer p {
   left: 0;
   right: 0;
   border-radius: 50%;
-  animation: spin 1.5s infinite linear;
+  animation: spin 10s infinite linear;
 }
 @keyframes spin{
   100%{
