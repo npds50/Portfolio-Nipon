@@ -7,8 +7,21 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="p.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+    </script>
   </head>
   <body>
+    <div class="loader">
+    <div></div>
+    <script>
+      $(window).on('load',function(){
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
+      });
+    </script>
+    </div>
     <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
     <script>
       new Snowflakes(0.1) ;
@@ -53,11 +66,8 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/resume-example.pdf')"
           >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+            My Resume
+
         </div>
         <div id="socials-container">
           <img
@@ -80,8 +90,8 @@
       <h1 class="title">About Me</h1>
       <div class="gallery">
         <div style="--i: url('pl.JPG')"></div>
-        <div style="--i: url('1.jpg')"></div>
-        <div style="--i: url('1.jpg')"></div>
+        <div style="--i: url('eiei.jpg')"></div>
+        <div style="--i: url('eiei2.jpg')"></div>
       </div>
         </div>
         <div class="about-details-container">
@@ -104,17 +114,7 @@
               <h3>Education</h3>
               <p>Bannonghuayfad<br />BSPWIT</p>
             </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
-          </div>
+
         </div>
       </div>
       <img
