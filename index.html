@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+      new Snowflakes(0.1) ;
+    </script>
     <nav id="desktop-nav">
       <div class="logo">Nipon Daosaeng</div>
       <div>
@@ -74,13 +78,11 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/PLU.JPG"
-            alt="Profile picture"
-            class="about-pic"
-          />
+      <div class="gallery">
+        <div style="--i: url('pl.JPG')"></div>
+        <div style="--i: url('1.jpg')"></div>
+        <div style="--i: url('1.jpg')"></div>
+      </div>
         </div>
         <div class="about-details-container">
           <div class="about-containers">
