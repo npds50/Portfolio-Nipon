@@ -309,7 +309,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #D4F6FF;
+  background: #ffffff;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -374,7 +374,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: #98e2e7;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255,0,0,1));
 }
 
 .project-img {
